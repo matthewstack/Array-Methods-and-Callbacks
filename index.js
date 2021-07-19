@@ -30,7 +30,7 @@ function getFinals(/* code here */) {
    /* code here */
 }
 
-
+// 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use the higher-order function called getYears to do the following: 
