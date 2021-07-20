@@ -90,9 +90,16 @@ Use the higher-order function getWinnersByYear to do the following:
 hint: the strings returned need to exactly match the string in step 4.
  */
 
-function getWinnersByYear(/* code here */) {
-    /* code here */
+function getWinnersByYear(data, getYearsCB, getWinnersCB) {
+    const theWinners = getWinnersCB(data);
+    const theYears = getYearsCB(data);
+
+    const yearsAndWinners = theWinners.map(function (value, i){
+        return `In ${theYears[i]}, ${theWinners[i]} won the world cup!`;
+    });
+    return yearsAndWinners;
 }
+
 
 
 
